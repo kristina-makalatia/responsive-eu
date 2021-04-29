@@ -1,0 +1,89 @@
+/* width & height example */
+/* @media (max-width: 1024px) {
+    .left-block,
+    .right-block {
+        width: 250px;
+        height: 250px;
+        background-color: hotpink;
+    }
+}
+
+@media (max-width: 768px) {
+    .right-block {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .right-block {
+        display: block;
+        width: 100px;
+        background-color: greenyellow;
+    }
+} */
+
+
+
+/* flex-direction example */
+/* @media (max-width: 1024px) {
+    .wraper-box  {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-block {
+        margin-bottom: 50px;
+    }
+} */
+
+
+/* flex-wrap example */
+@media (max-width:600px) {
+    .wraper-box {
+       justify-content: center;
+    }
+    .center-block {
+        margin: 30px 0;
+    }
+}
+
+
+
+/* images example */
+/* @media (max-width: 1080px) {
+    .images-wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+
+/* @media (max-width: 560px) {
+    .images-wraper {
+        justify-content: center;
+    }
+} */
+
+/* % - example */
+@media (max-width: 1024px) {
+    .block1 {
+        width: 48%;
+    }
+    .container {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .block1 {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+}
